@@ -1,4 +1,4 @@
-# Gyaon
+# Re:Piano
 
 [論文PDF](https://stkay.github.io/EC2017/ec2017.pdf)
 
