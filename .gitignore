@@ -41,6 +41,7 @@ Temporary Items
 *.fot
 *.cb
 *.cb2
+*.pdf
 
 ## Intermediate documents:
 *.dvi
@@ -249,5 +250,3 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
-
-

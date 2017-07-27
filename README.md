@@ -1,7 +1,5 @@
 # Re:Piano
 
-[論文PDF](https://stkay.github.io/EC2017/paper.pdf)
-
 ## PDFの生成
 
 ```
