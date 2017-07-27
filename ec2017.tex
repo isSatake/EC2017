@@ -111,7 +111,7 @@ Re:Pianoは、自分の過去の演奏履歴を活用することによって演
 
 
 \subsection{Dynamic Macroの例 (実はこれがメイン)}
-DynamicMacro \cite{Masui} とは
+DynamicMacro\cite{Masui}とは
 テキストエディタ用の繰り返し操作を効率化するシステム
 ユーザの繰り返し操作にもとづいて次の操作を予測し、キーボードマクロのように利用できる
 利用するキーは1つでじゅうぶんですよ
@@ -127,8 +127,9 @@ DynamicMacro \cite{Masui} とは
 \section{実装}
 
 \subsection{Web技術による実装}
-Re:PianoはJavaScriptとWebMIDIAPIで実装されたWebブラウザアプリケーションであり、MIDIキーボードを接続することで利用できる。
-最新のWebブラウザでは、WebMIDIAPIを利用することで簡単にMIDI機器と連携したアプリケーションを開発することが可能であり、本論文のような実験も容易である。
+Re:PianoはJavaScriptとWeb MIDI API\cite{webmidi}で実装されたWebブラウザアプリケーションであり、MIDIキーボードを接続することで利用できる。
+最新のWebブラウザでは、Web MIDI APIを利用することで簡単にMIDI機器と連携したアプリケーションを開発することが可能であり、本論文のような実験も容易である。
+また、Web Audio API\cite{webaudio} を利用して音源をブラウザ内に埋め込んでおり、外部MIDI音源を利用することなく演奏を楽しむことができる。
 
 %5
 \section{議論}
