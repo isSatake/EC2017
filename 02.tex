@@ -13,14 +13,23 @@
 ひとりでも合奏を行なうことが可能であるが、
 現在よく利用されているDTMソフトウェアやルーパーの利用はハードルが高い。
 {\system}では、
-演奏中に「録音再生ボタン」を押すだけで
+演奏中に
+%「録音再生ボタン」
+\includegraphics[height=3mm,width=20mm,bb=3 23 360 80]{images/recbutton.png}
+を押すだけで
 過去の演奏履歴を簡単に再利用することができる。
 
 %2.1
-\subsection{録音再生ボタンによる過去演奏の再生}
+%\subsection{録音再生ボタンによる過去演奏の再生}
+% \subsection{\protect\includegraphics[height=12mm,bb=0 28 360 220]{images/recbutton.png} による過去演奏の再生}
+\subsection{\protect\includegraphics[height=3mm,width=20mm,bb=3 23 360 80]{images/recbutton.png} による過去演奏の再生}
 \label{recplaybutton}
 
-{\system}では、演奏中に「録音再生ボタン」を押すことにより
+{\system}では、演奏中に
+% 「録音再生ボタン」
+% \includegraphics[height=12mm,bb=0 28 360 220]{images/recbutton.png}
+\includegraphics[height=3mm,width=20mm,bb=3 23 360 80]{images/recbutton.png}
+を押すことにより
 直前の自分の演奏を繰り返し再生することができる。
 また、
 繰り返し再生中に重ねて演奏したデータを
@@ -28,7 +37,11 @@
 
 \subsubsection{単純な過去演奏の再生}
 
-演奏中に録音再生ボタンを押すと、
+演奏中に
+% \includegraphics[height=12mm,bb=0 28 360 220]{images/recbutton.png}
+\includegraphics[height=3mm,width=20mm,bb=3 23 360 80]{images/recbutton.png}
+% 録音再生ボタン
+を押すと、
 直前の無音部分から現在までの演奏を登録して
 繰り返し再生を行うことができる(\figref{recplay1})。
 %
@@ -38,7 +51,10 @@
 
 \subsubsection{二度繰り返された演奏の登録と再生}
 
-同じ演奏を二度繰り返した後で録音再生ボタンを押すと、
+同じ演奏を二度繰り返した後で
+\includegraphics[height=3mm,width=20mm,bb=3 23 360 80]{images/recbutton.png}
+% 録音再生ボタン
+を押すと、
 {\system}は繰り返された部分を自動検出し、
 その部分の繰り返し再生を行なう。
 \figref{recplay2}の例では、
@@ -96,6 +112,6 @@ Dynamic Macroは、
 \subsection{やり直しボタン}
 
 \ref{recplaybutton}で重ねていった演奏を、
-新しいものから順に取り消す。(\figref{recplay3})
+新しいものから順に取り消す(\figref{recplay3})。
 登録された演奏はそれぞれ独立して管理されているので、
 やり直しボタンによってすぐ以前の状態に戻すことができる。
